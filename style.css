@@ -1,0 +1,130 @@
+body {
+	 background: url(images/fond2.jpg) no-repeat fixed center ; 
+	 background-size: cover;
+}
+#container {
+    background-color: rgba(245,200,240,0.8);
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+#corps .presentation, #corps .experience, #corps .scolarite, #corps .formations {
+	padding: 0 2rem;
+}
+.col-md-4, .col-md-8, .row {
+	padding: 0;
+	margin: 0;
+}
+/*PARTIE DROITE*/
+.col-md-4 .photo p {
+	text-align: center;
+	margin-top: 15px;
+}
+.presentation {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	font-size: 13px;
+}
+.presentation h4 {
+	color: #990033;
+	text-align: center;
+	font-size: 1.2rem;
+	text-decoration: underline;
+}
+a {
+	color: #990033;
+	word-wrap: break-word;
+}
+.informatique {
+	flex: 2;
+}
+.informatique p img {
+	padding: 0 0.8rem;
+}
+.loisirs p img {
+	padding: 0 7px;
+}
+.loisirs p {
+	text-align: center;
+}
+/*PARTIE GAUCHE*/
+.col-md-8 .nom h1 {
+	font-size: 3rem;
+}
+.col-md-8 .nom {
+	margin-top: 5px;
+	text-align: center;
+	color: #990033;
+}
+.col-md-8 .nom p span {
+	font-size: 20px;
+	font-weight: bold;
+}
+.col-md-8 .nom p {
+	font-size: 10px;
+}
+.col-md-8 h3 {
+	color: #990033;
+	font-size: 18px;
+	padding-top: 1rem;
+}
+.col-md-8 hr {
+	margin-top: -0.2rem;
+	background-color: #990033;
+}
+.experience u {
+	font-style: italic;
+	font-size: 16px;
+}
+.experience {
+	text-align: justify;
+	font-size: 13px;
+	margin-top: 3px;
+}
+.scolarite {
+	font-size: 14px;
+}
+.scolarite span {
+	color: #990033;
+}
+.formations {
+	font-size: 14px;
+}
+
+progress[value]{
+	width: 8.5rem;
+	height: 0.7rem;
+	-webkit-appearance: none;
+}
+::-webkit-progress-value {
+  background-color: #d32f2f;
+}
+
+/*TABLETTES ET TELEPHONES*/
+@media (max-width: 767px) {
+	body {
+	 background: none ; 
+	}
+	#container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+	}
+	#corps .row .col-md-4 {
+		order: 2;
+	}
+	header {
+		flex-direction: row;
+	}
+	.informatique p, .competence p {
+		text-align: center;
+	}
+	.presentation h4 {
+		background-color: #90A4AE;
+		text-decoration: none;
+	}
+}
+
