@@ -101,6 +101,17 @@ progress[value]{
 ::-webkit-progress-value {
   background-color: #d32f2f;
 }
+.experience {
+	padding: 0px;
+}
+.experience h4 {
+	font-style: italic;
+	font-size: 18px;
+}
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
 
 /*TABLETTES ET TELEPHONES*/
 @media (max-width: 767px) {
