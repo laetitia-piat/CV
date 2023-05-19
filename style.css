@@ -9,7 +9,7 @@ body {
     margin: auto;
     overflow: auto;
 }
-#corps .presentation, #corps .experience, #corps .scolarite, #corps .formations {
+#corps .presentation, #corps , #corps .scolarite, #corps .formations {
 	padding: 0 2rem;
 }
 .col-md-4, .col-md-8, .row {
