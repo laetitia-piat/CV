@@ -101,8 +101,8 @@ progress[value]{
 ::-webkit-progress-value {
   background-color: #d32f2f;
 }
-.experience {
-	padding: 0px;
+li.experience {
+	padding-right: 0px;
 }
 .experience h4 {
 	font-style: italic;
