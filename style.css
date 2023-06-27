@@ -9,7 +9,10 @@ body {
     margin: auto;
     overflow: auto;
 }
-#corps .presentation, #corps , #corps .scolarite, #corps .formations {
+h4 {
+	margin-bottom: 2px;
+}
+#corps .presentation, #corps {
 	padding: 0 2rem;
 }
 .col-md-4, .col-md-8, .row {
@@ -103,6 +106,7 @@ progress[value]{
 }
 li.experience {
 	padding-right: 0px;
+	margin-bottom: 14px;
 }
 .experience h4 {
 	font-style: italic;
