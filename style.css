@@ -3,7 +3,7 @@ body {
 	 background-size: cover;
 }
 #container {
-    background-color: rgba(245,200,240,0.8);
+    background-color: #e7cfc8;
     width: 100%;
     max-width: 1000px;
     margin: auto;
